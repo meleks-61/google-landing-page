@@ -34,6 +34,7 @@ ul a{
     opacity: 0.8;
     cursor: pointer;
     padding: 0.5rem;
+    text-decoration: none;
     
     
 
@@ -58,6 +59,8 @@ ul a{
 .header-right--button:hover{
     box-shadow: rgba(0,0,0,0.15)0px 1px 0px 0px;
 }
+
+/* main */
 #google-logo{
     width: 272px;
     height: 95px;
@@ -72,13 +75,74 @@ ul a{
     border-radius: 25px;
     margin: 28px auto;
 }
+.searchbar:hover{
+    box-shadow: rgb(211,211,211)3px 3px 5px 0px;
+}
 
-
+#magnify-glass{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px; 
+    vertical-align: middle;
+} 
+#search{
+    width: 380px;
+    height: 28px;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+    font-size: 16px;
+}
 #microphone{
-    height: 24px;
+    width: 15px;
+    height: 20px;
+    vertical-align: middle;
 
 }
-#magnify-glass{
-    height: 20px;
-    width: 20px;
-} 
+.btn-container{
+    text-align: center;
+}
+.btn-left,
+.btn-right{
+    height: 36px;
+    border: none;
+    background-color: #efefef;
+    border-radius: 4px;
+    padding: 1px 6px;
+    margin: 8px 4px;
+
+}
+.btn-left:hover,
+.btn-right:hover{
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+}
+.lang{
+    text-align: center;
+    margin: 20px 0px 13px;
+}
+.lang a{
+    color: #000080;
+   
+}
+/* footer */
+.footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    width: ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
