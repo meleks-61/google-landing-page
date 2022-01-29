@@ -123,6 +123,7 @@ ul a{
 }
 .lang a{
     color: #000080;
+    text-decoration: none;
    
 }
 /* footer */
@@ -131,10 +132,25 @@ ul a{
     bottom: 0px;
     background-color: #f2f2f2;
     line-height: 40px;
-    width: ;
+    width:100% ;
+    color: #5f6368;
 
 }
+.footer-country{
+    padding-left: 20px;
+}
+.footer-bottom{
+    border-top: 1px solid #e4e4e4;
+}
+.footer-bottom-left{
+    float: left;
+    padding-left: 10px;
 
+}
+.footer-bottom-right{
+    float: right;
+    
+}
 
 
 
