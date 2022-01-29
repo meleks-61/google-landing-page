@@ -9,38 +9,73 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
+    <!-- header -->
+    <header class="header">
         <ul class="header-right">
             <li><a href="#">Gmail</a></li>
             <li><a href="#">Images</a></li>
-            <li><a href="#"><img src="./img/WhatsApp Image 2021-06-26 at 11.48.16.jpeg" alt="appicon"></a></li>
-            <li><a href="#"><button id="signin-btn">sign in</button></a></li>
+            <li><a href="#"><img class="header-right--appicon"   src="./img/WhatsApp Image 2021-06-26 at 11.48.16.jpeg" alt="appicon"></a></li>
+            <li><a href="#"><button class="header-right--button" id="signin-btn">sign in</button></a></li>
+            
+        </ul>
+        <ul class="header-left">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+           
             
         </ul>
     </header>
+    <div class="clear"></div>
+    <!-- css de both ile bu divin sağını solunu temizliyoruz logo yukarı çıkmasın diye -->
+
+    <!-- finish header -->
+
+
+ <!-- main -->
     <main>
         <img id="google-logo" src="./img/WhatsApp Image 2021-06-29 at 12.16.17.jpeg" alt="google-logo">
         <div class="searchbar">
             <img id="magnify-glass" src="./img/WhatsApp Image 2021-06-26 at 11.47.42.jpeg" alt="magnify-glass">
             <input type="search" name="search" id="search">
-            <img id="keyboard" src="./img/WhatsApp Image 2021-06-29 at 12.16.28.jpeg" alt="keyboard">
-            <img id="microphone" src="./img/WhatsApp Image 2021-06-26 at 11.47.28.jpeg" alt="microphone">
+            <a href="#"><img id="keyboard" src="./img/WhatsApp Image 2021-06-29 at 12.16.28.jpeg" alt="keyboard"></a>
+            <a href="#"><img id="microphone" src="./img/WhatsApp Image 2021-06-26 at 11.47.28.jpeg" alt="microphone"></a>
 
         </div>
         <div class="btn-container">
-            <button id="btn1" type="button" name="button">Google Searh</button>
-            <button id="btn2" type="button" name="button">I'm Feeling Lucky</button>
+            <button id="btn-left" type="button" name="button">Google Searh</button>
+            <button id="btn-right" type="button" name="button">I'm Feeling Lucky</button>
 
         </div>
         <div class="lang">
             <p id="language">Other languageyou can use Google: <a href="#">Turkish</a>></p>
         </div>
     </main>
+
+    <!-- finished main -->
+
+
+
+<!-- footer -->
+
     <footer>
+        <div class="footer-country">Turkey</div>
+        <div class="footer-bottom">
+            <ul class="footer-bottom-left">
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">How Search Works</a></li>
+            </ul>
+            <ul class="footer-bottom-right">
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
+        </div>
 
 
         
     </footer>
+    <!-- finish footer -->
     
 </body>
 </html>
